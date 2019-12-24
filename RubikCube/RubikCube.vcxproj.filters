@@ -5,13 +5,126 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="着色器">
+      <UniqueIdentifier>{6b323b68-4a20-4c6d-a950-ce6b36d0e1f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="特效文件">
+      <UniqueIdentifier>{b4110016-6625-4214-bfad-7b64f2a789fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="基础模块">
+      <UniqueIdentifier>{c3cad9ca-a537-43a1-8694-242234065186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="微软工具库">
+      <UniqueIdentifier>{5e403d4a-bd1e-4c1c-9b3d-c7b96ac30045}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>微软工具库</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>微软工具库</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtil.cpp">
+      <Filter>基础模块</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>基础模块</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>基础模块</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>基础模块</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicEffect.cpp">
+      <Filter>特效文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>基础模块</Filter>
+    </ClCompile>
+    <ClCompile Include="Rubik.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>微软工具库</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>微软工具库</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>基础模块</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>微软工具库</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>微软工具库</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>基础模块</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>基础模块</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>基础模块</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dApp.h">
+      <Filter>基础模块</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>特效文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectHelper.h">
+      <Filter>特效文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>基础模块</Filter>
+    </ClInclude>
+    <ClInclude Include="Rubik.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>微软工具库</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>微软工具库</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>基础模块</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HLSL\Basic.hlsli">
+      <Filter>着色器</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL\Basic_PS.hlsl">
+      <Filter>着色器</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\Basic_VS.hlsl">
+      <Filter>着色器</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
